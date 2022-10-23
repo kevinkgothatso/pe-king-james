@@ -1,0 +1,68 @@
+#nav {
+    width: 100%;
+    height: 600px;
+    background-color: darkgray;
+}
+
+.background-nav {
+    background-image: url(../assets/images/confidence.jpeg);
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background-position: center;
+    background-clip: padding-box;
+    background-attachment: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: darkgray;
+}
+
+
+
+.nav-statemnt-lg{
+    position: absolute;
+    left: 80px;
+    top: 320px;
+    bottom: -15.52%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    z-index: 1;
+    color: white;
+}
+
+.nav-statemnt-sm{
+    position: absolute;
+width: 573.75px;
+height: 50px;
+left: 80px;
+top: 410px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: white;
+}
+
+.nav-btn {
+    height: 41px;
+    
+    position: absolute;
+    left: 80px;
+    top: 450px;
+    bottom: -15.52%;
+
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    background-color: #70259B;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color:white;
+}

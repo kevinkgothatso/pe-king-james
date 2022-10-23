@@ -1,0 +1,16 @@
+/* global css styles */
+
+body {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.line {
+    height: 4px;
+    width: 40px;
+    left: 85px;
+    top: 779px;
+    border-radius: 0px;
+    background-color: #D100C9;
+}
+

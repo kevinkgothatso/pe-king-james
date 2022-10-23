@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.items{
+    width: 19%;
+    padding-bottom: px;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+}
