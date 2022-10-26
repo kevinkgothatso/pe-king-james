@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-   <title>King James</title>
+   <title>King James Digital</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="./styles/styles.css" rel="stylesheet" type="text/css">
    <link href="./styles/nav.css" rel="stylesheet" type="text/css">
@@ -10,17 +12,52 @@
    <link href="./styles/case.study.css" rel="stylesheet" type="text/css">
    <link href="./styles/brands.css" rel="stylesheet" type="text/css">
    <link href="./styles/footer.css" rel="stylesheet" type="text/css">
+   <link href="./styles/header.css" rel="stylesheet" type="text/css">
    <link href="./styles/bootstrap.min.css" rel="stylesheet" type="text/css">
-   <link href="./assets/logo.svg" rel="icon" type="image">
+   <link href="./assets/favicon.svg" rel="icon" type="image">
 </head>
 
 <body>
-   <!--  nav -->
+   <!-- header  -->
+   <header class="header">
+      <div class="header_content d-flex flex-row align-items-center justify-content-center">
+         <div class="logo">
+            <a href="#">
+               <img class="img-logo" src="assets/logo.svg">
+            </a>
+         </div>
+         <div class="log_reg">
+            <div class="d-flex flex-row align-items-start justify-content-start">
+               <button class="btn-talk">Let’s Talk</button>
+            </div>
+         </div>
+         <nav class="main_nav">
+            <ul class="d-flex flex-row align-items-start justify-content-start">
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Industries</a></li>
+               <li><a href="#">Cases</a></li>
+               <li ><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="hamburger ml-auto">
+            <div class="d-flex flex-column align-items-end justify-content-between">
+               <div></div>
+               <div></div>
+               <div></div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- endo of header  -->
+
+   <!-- nav  -->
    <div id="nav">
       <div class="background-nav">
-         <span class="nav-statemnt-lg">Live with Confidence</span>
-         <p class="nav-statemnt-sm">José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-         <button id="nav-btn">View  Project</button>
+         <div class="nav-container">
+            <p class="nav-statemnt-lg">Live with Confidence</p>
+            <p class="nav-statemnt-sm">José Mourinho brings confidence to pan-African Sanlam campaign.</p>
+            <button id="nav-btn">View Project</button>
+         </div>
       </div>
    </div>
    <!-- end of nav -->
@@ -28,19 +65,6 @@
    <!-- services -->
    <div id="services">
       <div class="container">
-
-         <!-- <div class="row service-statement">
-            <div class="row service-statement">
-               <ul class="statement">
-                  <li class="line"></li>
-                  <li class="line-statement">Case studies </li>
-               </ul>
-            </div>
-            <p>We offer a complete range of bespoke design and development services to help you
-               turn your ideas into digital masterpieces</p>
-         </div> -->
-
-
          <div class="row service-statement">
             <ul class="statement-cs">
                <li class="line"></li>
@@ -156,17 +180,6 @@
    <!-- brands -->
    <div id="brands">
       <div class="container">
-
-         <!-- <div class="row service-statement">
-            <div class="row service-statement">
-               <ul class="statement">
-                  <li class="line"></li>
-                  <li class="line-statement">You’ll be in good company</li>
-               </ul>
-            </div>
-            <p>Trusted by leading brands</p>
-         </div> -->
-
          <div class="row service-statement">
             <ul class="statement-cs">
                <li class="line"></li>
@@ -175,7 +188,7 @@
             <p>Trusted by leading brands</p>
          </div>
 
-         
+
 
 
          <div class="flex-container">
@@ -204,7 +217,7 @@
 
    <footer id="footer">
       <div class="container">
-         
+
          <div class="row service-statement">
             <ul>
                <li class="line"></li>
@@ -213,7 +226,7 @@
          </div>
 
          <div class="row">
-            <div class="col-8" >
+            <div class="col-8">
                <div class="row state-1">Have a project in mind?
                   Let's make it happen
                </div>
@@ -268,7 +281,7 @@
          </div>
       </div>
    </footer>
-
+   <script src="scripts/bootstrap.min.js"></script>
    <script src="scripts/bootstrap.bundle.min.js"></script>
 </body>
 
