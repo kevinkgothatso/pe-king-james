@@ -1,57 +1,51 @@
-.card-cs-1, .card-cs-2, .card-cs-3{
+.card-cs-1, .card-cs-2, .card-cs-3 {
     background-repeat: no-repeat;
     background-attachment: initial;
     background-size: cover;
     height: 399px;
-    color:white;
+    color: white;
     background-position: center;
- }
- 
- .card-cs-1{
+}
+
+.card-cs-1 {
     background-image: url('../assets/images/olympian.jpeg');
- } 
- 
- .card-cs-2{
-     background-image: url('../assets/images/dragon.jpeg');
- } 
- 
- .card-cs-3{
-     background-image: url('../assets/images/skhokho.jpeg');
- }
+}
 
- .line-cs{
-    width: 40px;
-height: 4px;
-left: 85px;
-top: 779px;
-    background: #D100C9;
- }
+.card-cs-2 {
+    background-image: url('../assets/images/dragon.jpeg');
+}
 
- .line-statement-cs{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 120%;
- }
+.card-cs-3 {
+    background-image: url('../assets/images/skhokho.jpeg');
+}
 
 
- .statement-cs > li{
+#case-study {
+    padding: 10px 0px 10px 0px;
+}
+
+/* reduce redundancy */
+.statement-cs >li {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 120%;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
     position: relative;
-    display: initial;
     top: 60%;
     margin-top: 15px;
     left: 10px;
- }
+}
 
- .explain-cs{
+.explain-cs {
     position: relative;
     top: 60%;
     left: 10px;
- }
+    width: 92%;
+}
+
+.line-cs {
+    width: 40px;
+    height: 4px;
+    background: #D100C9;
+}

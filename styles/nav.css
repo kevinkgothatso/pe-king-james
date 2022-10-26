@@ -2,6 +2,7 @@
     width: 100%;
     height: 600px;
     background-color: darkgray;
+    padding: 10px 0px 10px 0px;
 }
 
 .background-nav {
@@ -17,14 +18,11 @@
     background-color: darkgray;
 }
 
-
-
-.nav-statemnt-lg{
+.nav-statemnt-lg {
     position: absolute;
     left: 80px;
     top: 320px;
     bottom: -15.52%;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -34,35 +32,36 @@
     color: white;
 }
 
-.nav-statemnt-sm{
+.nav-statemnt-sm {
     position: absolute;
-width: 573.75px;
-height: 50px;
-left: 80px;
-top: 410px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-color: white;
+    width: 573.75px;
+    height: 50px;
+    left: 80px;
+    top: 410px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
 }
 
-.nav-btn {
+#nav-btn{
     height: 41px;
-    
+    margin-top: 20px;
     position: absolute;
     left: 80px;
     top: 450px;
     bottom: -15.52%;
-
     border-radius: 25px;
     padding: 10px 20px 10px 20px;
     background-color: #70259B;
- font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 150%;
-color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
 }
+
+

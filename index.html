@@ -9,6 +9,7 @@
    <link href="./styles/services.css" rel="stylesheet" type="text/css">
    <link href="./styles/case.study.css" rel="stylesheet" type="text/css">
    <link href="./styles/brands.css" rel="stylesheet" type="text/css">
+   <link href="./styles/footer.css" rel="stylesheet" type="text/css">
    <link href="./styles/bootstrap.min.css" rel="stylesheet" type="text/css">
    <link href="./assets/logo.svg" rel="icon" type="image">
 </head>
@@ -19,7 +20,7 @@
       <div class="background-nav">
          <span class="nav-statemnt-lg">Live with Confidence</span>
          <p class="nav-statemnt-sm">José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-         <button class="nav-btn">View Project</button>
+         <button id="nav-btn">View  Project</button>
       </div>
    </div>
    <!-- end of nav -->
@@ -27,15 +28,29 @@
    <!-- services -->
    <div id="services">
       <div class="container">
-         <div class="row service-statement">
-            <ul>
-               <li class="line"></li>
-               <li class="line-statement">we do</li>
-            </ul>
 
+         <!-- <div class="row service-statement">
+            <div class="row service-statement">
+               <ul class="statement">
+                  <li class="line"></li>
+                  <li class="line-statement">Case studies </li>
+               </ul>
+            </div>
+            <p>We offer a complete range of bespoke design and development services to help you
+               turn your ideas into digital masterpieces</p>
+         </div> -->
+
+
+         <div class="row service-statement">
+            <ul class="statement-cs">
+               <li class="line"></li>
+               <li class="line-statement">Case studies </li>
+            </ul>
             <p>We offer a complete range of bespoke design and development services to help you
                turn your ideas into digital masterpieces</p>
          </div>
+
+
 
          <div class="row">
             <div class="col-3">
@@ -88,8 +103,8 @@
 
          <div class="row service-statement">
             <ul class="statement-cs">
-               <li class="line-cs"></li>
-               <li class="line-statement-cs">Case studies </li>
+               <li class="line"></li>
+               <li class="line-statement">Case studies </li>
             </ul>
          </div>
 
@@ -142,18 +157,30 @@
    <div id="brands">
       <div class="container">
 
+         <!-- <div class="row service-statement">
+            <div class="row service-statement">
+               <ul class="statement">
+                  <li class="line"></li>
+                  <li class="line-statement">You’ll be in good company</li>
+               </ul>
+            </div>
+            <p>Trusted by leading brands</p>
+         </div> -->
+
          <div class="row service-statement">
-            <ul>
+            <ul class="statement-cs">
                <li class="line"></li>
                <li class="line-statement">You’ll be in good company</li>
             </ul>
             <p>Trusted by leading brands</p>
          </div>
 
+         
+
 
          <div class="flex-container">
+            <div class="items" style="background-image: url('./assets/brands/visa-black.svg');"></div>
             <div class="items" style="background-image: url('./assets/brands/tyme-bank-black.svg');"></div>
-            <div class="items" style="background-image: url('./assets/brands/distell-black.svg');"></div>
             <div class="items" style="background-image: url('./assets/brands/distell-black.svg');"></div>
             <div class="items" style="background-image: url('./assets/brands/spotify-black.svg');"></div>
             <div class="items" style="background-image: url('./assets/brands/microsoft-black.svg');"></div>
@@ -187,8 +214,7 @@
 
          <div class="row">
             <div class="col-8" >
-
-               <div class="row" style="background-color:darkgrey;height: 200px !important;">Have a project in mind?
+               <div class="row state-1">Have a project in mind?
                   Let's make it happen
                </div>
 
@@ -215,8 +241,6 @@
                      </ul>
                   </div>
                   <div class="col-3">
-
-
                      <ul>
                         <li>Youtube</li>
                         <li>Behance</li>
@@ -226,16 +250,19 @@
                </div>
             </div>
             <div class="col-4">
-               <div class="row" style="background-color:darkgrey;height: 200px !important;">
-                  <p>22 Lawley Road, Woodstock, 7925,</p>
-                  <p>Cape Town, South Africa</p>
-                  <p>+27 21 469 1500</p>
-                  <p>enquirie@kingjames.co.za</p>
+               <div class="row state-2">
+                  <ul>
+                     <li>22 Lawley Road, Woodstock, 7925,</li>
+                     <li>Cape Town, South Africa</li>
+                     <li>+27 21 469 1500</li>
+                     <li>enquirie@kingjames.co.za</li>
+                  </ul>
                </div>
                <div class="row">
-                  <p>Explore open jobs</p>
-                  <p>©2000—2022 King James Digital</p>
-
+                  <ul>
+                     <li>Explore open jobs</li>
+                     <li>©2000—2022 King James Digital</li>
+                  </ul>
                </div>
             </div>
          </div>

@@ -14,3 +14,54 @@ body {
     background-color: #D100C9;
 }
 
+.service-statement {
+    margin: 5px 0px 5px 0px;
+}
+
+
+.statement>li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    position: relative;
+    display: initial;
+    top: 60%;
+    margin-top: 15px;
+    left: 10px;
+}
+
+
+.line-statement {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.line {
+    width: 40px;
+    height: 4px;
+    left: 85px;
+    top: 779px;
+    background: #D100C9;
+}
+
+.service-statement {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #242424;
+}
+
+/* Brands */
+.service-statement p {
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
