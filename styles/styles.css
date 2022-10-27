@@ -65,3 +65,9 @@ body {
     margin-bottom: 50px;
     margin-top: 5px;
 }
+
+/* header */
+
+a:hover{
+    color:darkgray  !important;
+}

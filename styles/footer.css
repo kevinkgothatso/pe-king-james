@@ -32,3 +32,11 @@
 .state-2 > span {
     display: block;
 }
+
+/* Media Query */
+
+@media screen and (max-width:540px) {
+    .items{
+        width: 50%;
+    }
+}
