@@ -24,7 +24,7 @@
 
 /* wording */
 .nav-statemnt-lg {
-    font-family: 'Inter';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -34,7 +34,7 @@
 
 .nav-statemnt-sm {
     height: 50px;
-    font-family: 'Inter';
+    font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -46,7 +46,7 @@
     border-radius: 25px;
     padding: 10px 20px 10px 20px;
     background-color: #70259B;
-    font-family: 'Inter';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

@@ -20,28 +20,10 @@ top: 779px;
     background: #D100C9;
 }
 
-/* .line-statement{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 120%;
-} */
-
-/* .service-statement{
- font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 140%;
-display: flex;
-align-items: center;
-color: #242424;
-} */
 
 
 .card-heading{
-    font-family: 'Inter';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -52,7 +34,7 @@ height: 41px;
 
 .card-statement{
 height: 212px;
-    font-family: 'Inter';
+    font-family: inherit;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
