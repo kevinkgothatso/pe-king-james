@@ -60,3 +60,10 @@ color: #000000;
     margin-top: 20px !important;
 }
 
+/* responsiveness service section*/
+
+@media screen and (min-width:576px) , (max-width:768px){
+    .offer-services{
+        margin-bottom: 0px !important;
+    }
+}

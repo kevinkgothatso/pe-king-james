@@ -24,7 +24,6 @@
     padding: 10px 0px 10px 0px;
 }
 
-/* reduce redundancy */
 .statement-cs >li {
     font-family: 'Inter';
     font-style: normal;
@@ -59,5 +58,26 @@
     height: 100px;
     background-position: 0%;
     background-repeat: no-repeat;
+}
+
+
+
+/* responsive case study section */
+
+@media screen and (max-width:576px) {
+    .service-card{
+       margin-bottom:20px;
+    }
+
+    .trusted-brands{
+        font-size: 38px
+       }
+}
+
+
+@media screen and (max-width:768px) {
+    .service-card{
+       margin-bottom:20px;
+    }
 }
 

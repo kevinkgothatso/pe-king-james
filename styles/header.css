@@ -23,8 +23,7 @@ line-height: 150%;
 }
 
 .btn-talk{
-    /* width: 64px; */
-    /* height: 21px; */
+    border-color: transparent;
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -40,8 +39,6 @@ line-height: 150%;
     fill: white;
 }
 
-
-/* stolen */
 
 .header{
     position: fixed;
