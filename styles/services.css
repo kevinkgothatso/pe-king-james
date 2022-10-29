@@ -1,49 +1,49 @@
-#services{
+#services {
     padding: 10px 0px 10px 0px;
 }
 
-ul{
+ul {
     display: contents;
     list-style-type: none;
 }
 
-ul > li{
+ul>li {
     padding-right: 10px;
     margin-right: 10px;
 }
 
-.line{
-width: 40px;
-height: 4px;
-left: 85px;
-top: 779px;
+.line {
+    width: 40px;
+    height: 4px;
+    left: 85px;
+    top: 779px;
     background: #D100C9;
 }
 
 
 
-.card-heading{
+.card-heading {
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
     color: #000000;
-height: 41px;
+    height: 41px;
 }
 
-.card-statement{
-height: 212px;
+.card-statement {
+    height: 212px;
     font-family: inherit;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
 }
 
 
-.service-img-1{
+.service-img-1 {
     left: 25.51%;
     right: 25.51%;
     top: 74.49%;
@@ -52,18 +52,22 @@ color: #000000;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-.card{
+.card {
     border-color: transparent !important;
 }
 
-.row{
+.row {
     margin-top: 20px !important;
 }
 
-/* responsiveness service section*/
-
-@media screen and (min-width:576px) , (max-width:768px){
-    .offer-services{
+/* responsive service section*/
+@media screen and (min-width:576px),
+(max-width:768px) {
+    .offer-services {
         margin-bottom: 0px !important;
+    }
+
+    .card-statement {
+        height: 100px;
     }
 }

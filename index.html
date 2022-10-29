@@ -4,64 +4,75 @@
 <head>
    <title>King James Digital</title>
    <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="./styles/styles.css" rel="stylesheet" type="text/css">
-   <link href="./styles/nav.css" rel="stylesheet" type="text/css">
-   <link href="./styles/services.css" rel="stylesheet" type="text/css">
-   <link href="./styles/case.study.css" rel="stylesheet" type="text/css">
-   <link href="./styles/brands.css" rel="stylesheet" type="text/css">
-   <link href="./styles/footer.css" rel="stylesheet" type="text/css">
-   <link href="./styles/header.css" rel="stylesheet" type="text/css">
    <link href="styles/bootstrap.min.css" type="text/css" rel="stylesheet">
+   <link href="./styles/styles.css" rel="stylesheet" type="text/css">
    <link href="./assets/favicon.svg" rel="icon" type="image">
 </head>
 
 <body>
-   <!-- header  -->
-   <header class="header">
-      <div class="header_content d-flex flex-row align-items-center justify-content-center">
-         <div class="logo">
-            <a href="#">
-               <img class="img-logo" src="assets/logo.svg">
-            </a>
-         </div>
-         <div class="log_reg">
-            <div class="d-flex flex-row align-items-start justify-content-start">
-               <button class="btn-talk">Let’s Talk</button>
-            </div>
-         </div>
-         <nav class="main_nav">
-            <ul class="d-flex flex-row align-items-start justify-content-start">
-               <li><a href="#">Services</a></li>
-               <li><a href="#">Industries</a></li>
-               <li><a href="#">Cases</a></li>
-               <li><a href="#">Contact</a></li>
+   <!-- navbar  -->
+   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand mb-0 h1">
+          <img class="logo" src="assets/logo.svg">
+      </a>
+      
+      <!-- button when we toggle the navbar icon -->
+      <button  type="button" 
+       data-bs-toggle="collapse"
+       data-bs-target="#navbarNav"
+       class="navbar-toggler"
+       aria-controls="navbarNav"
+       aria-expanded="false"
+       aria aria-label="toggle navigation">
+         <!-- Menu --> <!--text node-->
+         <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      <!-- contains menu for links -->
+      <div class="container">
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-center">
+   
+               <li class="nav-item active">
+                  <a href="#" class="nav-link active">Services</a>
+               </li>
+      
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Industries</a>
+               </li>
+      
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Cases</a>
+               </li>
+      
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Contacts</a>
+               </li>
             </ul>
-         </nav>
-         <div class="hamburger ml-auto">
-            <div class="d-flex flex-column align-items-end justify-content-between">
-               <div></div>
-               <div></div>
-               <div></div>
+   
+            <div class="container-btn-see">
+               <button class="btn-offer">Let's Talk</button>
             </div>
+   
          </div>
       </div>
 
-   </header> -->
-   <!-- endo of header  -->
+   </nav>
+   <!-- end of navbar  -->
 
-   <!-- nav  -->
-   <div id="nav">
-      <div class="background-nav">
-         <div class="nav-container">
-            <p class="nav-statemnt-lg">Live with Confidence</p>
-            <p class="nav-statemnt-sm">José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-            <button id="nav-btn">View Project</button>
+   <!-- banner -->
+   <div id="banner">
+      <div class="background-banner">
+         <div class="banner-container">
+            <p class="banner-statemnt-lg">Live with Confidence</p>
+            <p class="banner-statemnt-sm">José Mourinho brings confidence to pan-African Sanlam campaign.</p>
+            <button id="banner-btn">View Project</button>
          </div>
       </div>
    </div>
-   <!-- end of nav -->
+   <!-- end of banner -->
 
    <!-- services -->
    <div id="services">
@@ -181,7 +192,6 @@
 
       </div>
    </div>
-   </div>
    <!-- end of case-study -->
 
 
@@ -223,6 +233,7 @@
    </div>
    <!-- end of brands -->
 
+   <!-- footer -->
    <footer id="footer">
       <div class="container">
 
@@ -289,7 +300,8 @@
          </div>
       </div>
    </footer>
-   <script src="scripts/bootstrap.bundle.min.js"></script>
+   <!-- end of footer -->
+   <script src="scripts/bootstrap.bundle.js"></script>
 </body>
 
 </html>

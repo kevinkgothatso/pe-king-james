@@ -1,5 +1,12 @@
-/* global css styles */
 
+@import url('./banner.css');
+@import url('./brands.css');
+@import url('./case.study.css');
+@import url('./footer.css');
+@import url('./services.css');
+@import url('./navbar.css');
+
+/* global css styles */
 body {
     margin: 0% !important;
     padding: 0% !important;
@@ -67,7 +74,6 @@ body {
 }
 
 /* header */
-
 a:hover{
     color:darkgray  !important;
 }

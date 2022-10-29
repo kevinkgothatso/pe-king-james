@@ -1,4 +1,4 @@
-#nav{
+#banner{
     width: 100%;
     height: 600px;
     background-color: darkgray;
@@ -7,13 +7,13 @@
     margin: 0px
 }
 
-.background-nav {
+.background-banner {
     background-image: url(../assets/images/confidence.jpeg);
     width: 100%;
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-position: center;
+    background-position: center -25px;
     background-clip: padding-box;
     background-attachment: initial;
     background-size: cover;
@@ -23,7 +23,7 @@
 
 
 /* wording */
-.nav-statemnt-lg {
+.banner-statemnt-lg {
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -32,7 +32,7 @@
     z-index: 1;
 }
 
-.nav-statemnt-sm {
+.banner-statemnt-sm {
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -41,7 +41,7 @@
     height: 50px;
 }
 
-#nav-btn{
+#banner-btn{
     height: 41px;
     border-radius: 25px;
     padding: 10px 20px 10px 20px;
@@ -53,19 +53,19 @@
     line-height: 150%;
     color: white;
     border-color: transparent;
-    width: 200px;
+    width: 200px !important;
     transition-property: height, width;
     transition-duration: 100ms;
     transition-timing-function: ease-in;
 }
 
-#nav-btn:hover:hover{
+#banner-btn:hover:hover{
     background-color: #9918e3;
-    width: 210px;
-    height: 41px;
+    width: 215px !important;
+    height: 43px;
 }
 
-.nav-container{
+.banner-container{
     background-color: transparent;
     width: 45%;
     height: auto;
@@ -76,7 +76,7 @@
 }
 
 
-/* responsive nav */
+/* responsive banner */
 
 @media screen and (max-width:992px) {
     .offer-services{
@@ -88,23 +88,25 @@
 }
 
 
-@media screen and (min-width:576px) , (max-width:768px){
-   .nav-container{
+@media screen and (max-width:694px){
+   .banner-container{
     top: 40%;
    }
 
-   #nav-btn{
+   #banner-btn{
     height: 40px;
     width: initial;
    }
 
-   .nav-statemnt-sm {
+   .banner-statemnt-sm {
     font-size: 15px;
+    height: auto;
    }
 
 
-   .nav-statemnt-lg {
-    font-size: 35px;
+   .banner-statemnt-lg {
+    font-size: 30px;
+    height: auto;
    }
 
 }
